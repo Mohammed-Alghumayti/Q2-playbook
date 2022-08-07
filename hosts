@@ -1,0 +1,6 @@
+[loadbalancer]
+lb ansible_host=ec2-3-239-121-122.compute-1.amazonaws.com ansible_connection=local
+
+[webservers]
+Ubuntu ansible_host=ec2-54-208-46-132.compute-1.amazonaws.com
+Lunix ansible_host=ec2-3-84-32-10.compute-1.amazonaws.com
